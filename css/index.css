@@ -1,0 +1,97 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: helvetica;
+    color: #F5F5F0;
+    background-color: #3C3C3C;
+    cursor: url(../res/img/cursor.cur), auto;
+    cursor: url(../res/img/cursor.cur), default;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button {
+    cursor: url(../res/img/cursor.cur), auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #F5F5F0;
+    background-color: grey;
+}
+button:hover {
+    box-shadow: 0px 0px 3px 1px #B8E6B8;
+}
+button:active {
+    box-shadow: 0px 0px 6px 1px #B8E6B8;
+}
+
+input {
+    cursor: url(../res/img/cursor.cur), auto;
+}
+input:hover {
+    box-shadow: 0px 0px 3px 1px #B8E6B8;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#haze {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(25, 0, 25, 0.25);
+
+}
+
+#menu {
+    width: 500px;
+    z-index: 15;
+
+    padding: 16px;
+
+    margin: 16px auto;
+    text-align: center;
+}
+
+#menu-main {
+
+}
+
+#menu-settings {
+    display: none;
+    margin-top: 8px;
+}
+#menu-paused {
+    display: none;
+}
+
+#game-main {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    cursor: none;
+    z-index: 0;
+    overflow: hidden;
+}
+#cursor {
+    position: absolute;
+    z-index: 1000;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

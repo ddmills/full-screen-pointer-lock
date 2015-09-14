@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title id="main-title"> Fullscreen-Pointerlock &middot; Demo </title>
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- scripts -->
+  <script type="text/javascript" src="./js/game.js"></script>
+  <script type="text/javascript" src="./js/gui.js"></script>
+
+</head>
+<body>
+
+  <div id="haze">
+    <div id="menu">
+
+      <div id="menu-main">
+        <h1> Fullscreen-Pointerlock Demo </h1>
+        <button id="game-start">Start</button>
+        <button id="game-settings">Settings</button>
+      </div>
+
+      <div id="menu-paused">
+        <h1>Fullscreen-Pointerlock Demo : Paused</h1>
+        <button id="game-unpause">Unpause</button>
+        <button id="game-settings-paused">Settings</button>
+      </div>
+
+      <div id="menu-settings">
+        <input id="settings-fullscreen" type="checkbox" checked="true">fullscreen mode</input>
+        <input id="settings-pointerlock" type="checkbox" checked="true">pointerlock mode</input>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="game-main"></div>
+
+</body>
+</html>
